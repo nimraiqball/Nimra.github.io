@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Nimra Iqbal</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="C:\Users\Administrator\Desktop\ni\n-high-resolution-logo-transparent.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills & Qualification</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi Friends, I'm <span>Nimra</span> <br>'An Aspiring Techie'</h1>
+                <p>A Software Developer</p>
+
+            </div>
+        </div>
+    </div>
+    <!-------About------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:\Users\Administrator\Desktop\ni\IMG_20231125_055813.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><p><br><br>Fueled by Coffee<br><br>Weaving verses in code, Poet in syntax
+                        <br><br>Behind the verses, I'm a Computer Programmer,<br> Architecting digital realms with lines of code.</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------Skills------->
+    <div id="skills">
+        <div class="container">
+            <div class="rows">
+                <div class="skills-col-1">
+                    <h1 class="sub-title">Skills & Qualifications</h1>
+                 
+                    <p><ul>
+                        <br><li>Proficient in C++, HTML, CSS, SQL, and content writing.</li><br>
+                        <li>GitHub enthusiast, actively contributing to open-source projects <br></li><br>
+                        <li>Canva expert.<br></li><br>
+                        <li>Certified from Girls x Tech.<br></li><br>
+                        <li>Currently pursuing studies at Bahria University, Islamabad, <br>
+                             honing my skills in the ever-evolving tech landscape.</li>
+                    </ul></p>
+                </div>
+                    <div class="skills-col-2">
+                    <img src="https://community.codenewbie.org/images/0XxDBJ0N_5b7406646Qus_k-KCbNWYlIX_fbkaUND60/rs:fill:1080:1080/g:sm/mb:500000/ar:1/aHR0cHM6Ly9jb21t/dW5pdHkuY29kZW5l/d2JpZS5vcmcvcmVt/b3RlaW1hZ2VzL2kv/eDJyZDV6b2Rrdmhm/ZjkwcmV3bW8uanBn">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------My Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolios</h1>
+        <div class="work-list">
+            <div class="work">
+                <a href="https://github.com/nimraiqball">
+                    <img src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png"></a>
+            </div>
+            <div class="work">
+                <a href="https://www.linkedin.com/in/nimra-iqbal-b7348322b/">
+                <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png"></a>
+            </div>
+            <div class="work">
+                <a href="https://twitter.com/nimra___iqbal">
+                <img src="https://img.freepik.com/premium-vector/glowing-neon-twitter-app-logo-icon_742443-29.jpg"></a>
+            </div>
+            <div class="work">
+                <a href="https://medium.com/@nimraiqbal252">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*psYl0y9DUzZWtHzFJLIvTw.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------Contacl-->
+<div id="contact">
+    <div class="container">
+    
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p>nimraiqbal252@gmail.com</p>
+                <p>01-134212-148@student.bahria.edu.pk</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/nimra___iqbal"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/nimra-iqbal-b7348322b/">
+                        <i class="fa-brands fa-linkedin" style="color: #577ab7;"></i></a>
+                    <a href="https://instagram.com/nimra_lqbal?igshid=MTk0NTkyODZkYg==">
+                        <i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="message" name="Message" placeholder="Your Message" required>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2023 Nimra Iqbal. All rights reserved.</p>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyBfKaGTQHboBD5k4uZ2rjkKtejyW8x-C4GovGKXx9KfeyDHXJNOHZMBOJhV8vCYj4Nvg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function()
+                {
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
